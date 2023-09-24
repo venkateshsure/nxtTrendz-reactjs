@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+
+.nxtwave {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nxt-logo {
+  width: 150px;
+  height: 70px;
+}
+
+.nxtwave-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
+  list-style-type: none;
+}
+
+.but {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 10px;
+  border-radius: 5px;
+  border: none;
+}
